@@ -8,15 +8,25 @@ To Write a Java program to create a class called Smartphone with private instanc
 
 ## ALGORITHM :
 1.Start
+
 2.Create a class Smartphone with private variables brand, model, storageCapacity.
+
 3.Provide getter and setter methods for each variable.
+
 4.Create increaseStorage(int value) to add the value to storageCapacity if value > 0.
+
 5.In main():
+
 6.Create a Scanner
+
 7.Take user input for brand, model, and storage
+
 8.Take input for value to increase storage
+
 9.Call increaseStorage()
+
 10.Display updated details
+
 11.End
 
 
@@ -103,3 +113,4 @@ public class Main {
 
 ## RESULT:
 The program successfully accepts smartphone details from the user, increases the storage capacity by the specified amount, and displays the updated information.
+
