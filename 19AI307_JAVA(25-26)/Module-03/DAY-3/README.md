@@ -2,9 +2,26 @@
 
 ## QUESTION:
 Create an abstract class Employee with method calculatePay(). Extend it to HourlyEmployee and SalariedEmployee.
+Input Format:
 
+- The first line contains an integer:
+    1 → for HourlyEmployee  
+    2 → for SalariedEmployee
+
+- If input is 1 (HourlyEmployee):
+    The second line contains two values:
+    - hours worked (integer)
+    - rate per hour (double)
+
+- If input is 2 (SalariedEmployee):
+    The second line contains one value:
+    - monthly salary (double)
+
+Output Format:
+
+- A single line containing the calculated pay formatted to two decimal places.
 ## AIM:
-Create an abstract class Employee with method calculatePay(). Extend it to HourlyEmployee and SalariedEmployee.
+To Create an abstract class Employee with method calculatePay(). Extend it to HourlyEmployee and SalariedEmployee.
 
 ## ALGORITHM :
 1.Start
@@ -95,3 +112,4 @@ class prog {
 
 ## RESULT:
 The program successfully calculates pay for both types of employees using polymorphism. HourlyEmployee computes pay based on hours and rate, while SalariedEmployee returns a fixed monthly salary.
+
