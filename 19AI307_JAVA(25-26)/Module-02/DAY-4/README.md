@@ -10,12 +10,19 @@ To Write a program to access a static variable using both class name and object.
 
 ## ALGORITHM :
 1.Start
+
 2.Create a class with a static variable (e.g., static int count).
+
 3.In the main() method:
+
 4.Access the static variable using the class name.
+
 5.Create an object of the class.
+
 6.Access the same static variable using the object reference.
+
 7.Print values in both cases.
+
 8.End
 
 ## PROGRAM:
@@ -47,4 +54,5 @@ class prog{
 
 ## RESULT:
 The program successfully accesses the static variable using both the class name and an object, demonstrating that static variables belong to the class rather than individual objects.
+
 
