@@ -1,23 +1,26 @@
 # Ex.No:3(E) INNER CLASS
 
 ## QUESTION:
-Write a Java program to check if a number is an Armstrong number using Math.pow() and the Integer wrapper class. Take input from the user.
-<img width="416" height="124" alt="Screenshot 2025-11-21 144525" src="https://github.com/user-attachments/assets/5f242592-1efb-46c7-ab3f-86b05a21a4c1" />
+Write a Java program to create an enum Season with values WINTER, SPRING, SUMMER, and FALL. Use a switch statement to display a custom message based on the current season.
+<img width="542" height="385" alt="image" src="https://github.com/user-attachments/assets/838e9c98-d343-4647-9496-78aac9aa41ee" />
 
 ## AIM:
-To Write a Java program to check if a number is an Armstrong number using Math.pow() and the Integer wrapper class. Take input from the user.
+To write a Java program to create an enum Season with values WINTER, SPRING, SUMMER, and FALL. Use a switch statement to display a custom message based on the current season.
 
 ## ALGORITHM :
 1.Start
-2.Read a number from the user.
-3.Convert the number to a string using Integer.toString(number) to count digits.
-4.Store the digit count.
-5.Use Math.pow(digit, numberOfDigits) to raise the digit to the power.
-6.Add the result to sum.
-7.Compare the sum with the original number.
-8.If equal → It is an Armstrong number.
-9.Else → Not an Armstrong number.
-10.End.
+2.Create an enum Season with values:
+   WINTER, SPRING, SUMMER, FALL
+3.Read a season name from the user
+4.Convert the input string to uppercase so it matches enum names.
+  Use Season.valueOf() to convert the string to an enum value.
+5.Use a switch statement:
+  If WINTER → print “It's cold outside. Stay warm!”
+  If SPRING → print “Flowers are blooming. Enjoy the fresh air!”
+  If SUMMER → print “It's sunny and hot. Time for the beach!”
+  If FALL → print “Leaves are falling. Autumn is beautiful!”
+6.Display the output.
+7.End
 
 ## PROGRAM:
  ```
@@ -31,32 +34,38 @@ RegisterNumber:  212222100024
 ## SOURCE CODE:
 ```
 import java.util.Scanner;
-
-public class ArmstrongCheck {
+enum Season
+{
+    WINTER, SPRING, SUMMER, FALL
+}
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int originalNum = num;
-        int digits = Integer.toString(num).length();
-        int sum = 0;
-        while (num > 0) {
-            int digit = num % 10;
-            sum += Math.pow(digit, digits);
-            num /= 10;
-        }
+        String input = sc.nextLine().toUpperCase();  // Convert to uppercase
+        Season season = Season.valueOf(input);  // Convert string to enum
+        switch (season) {
+            case WINTER:
+                System.out.println("It's cold outside. Stay warm!");
+                break;
 
-        if (sum == originalNum) {
-            System.out.println(originalNum + " is an Armstrong number.");
-        } else {
-            System.out.println(originalNum + " is not an Armstrong number.");
+            case SPRING:
+                System.out.println("Flowers are blooming. Enjoy the fresh air!");
+                break;
+
+            case SUMMER:
+                System.out.println("It's sunny and hot. Time for the beach!");
+                break;
+
+            case FALL:
+                System.out.println("Leaves are falling. Autumn is beautiful!");
+                break;
         }
     }
 }
-
 ```
 ## OUTPUT:
-<img width="846" height="200" alt="Screenshot 2025-11-21 144629" src="https://github.com/user-attachments/assets/6a1dd2e1-fc0e-4406-9e7b-40e29e368c4c" />
+<img width="997" height="237" alt="image" src="https://github.com/user-attachments/assets/8d2d5419-4a1e-4457-ac02-7e26c71c926e" />
 
 ## RESULT:
-The program successfully checks whether the given number is an Armstrong number using Math.pow() and the Integer wrapper class, and displays the correct output.
+The program successfully reads the season from the user, converts it to an enum value, and displays the correct custom message using a switch statement.
 
