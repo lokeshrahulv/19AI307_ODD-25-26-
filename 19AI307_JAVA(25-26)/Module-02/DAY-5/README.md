@@ -9,14 +9,23 @@ To Create a class Calculator with: One non-static method add(int a, int b) that 
 
 ## ALGORITHM :
 1.Start
+
 2.Create a class Calculator.
+
 3.Inside the class:
+
 4.Define a non-static method add(int a, int b) that returns a + b.
+
 5.Define a static method info() that prints "Calculator is ready".
+
 6.In the main() method:
+
 7.Call the static method using the class name.
+
 8.Create an object of Calculator.
+
 9.Call the non-static add() method and print the result.
+
 10.End
 
 
@@ -65,3 +74,4 @@ class prog
 
 ## RESULT:
 The program successfully prints the static method message and calculates the sum using the non-static method.
+
