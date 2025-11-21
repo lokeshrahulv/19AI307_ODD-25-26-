@@ -20,15 +20,25 @@ A programming bots that analyze weather data. Each bot must implement a common i
 
 ## ALGORITHM :
 1.Start
+
 2.Create an interface WeatherBot with a method:
+
 3.Create TemperatureBot class:
+
 4.Implement the getPrediction() method
+
 5.Create RainfallBot class:
+
 6.Return a rainfall prediction
+
 7.Create WindBot class:
+
 8.Return a wind prediction
+
 9.Create objects of TemperatureBot, RainfallBot, and WindBot
+
 10.Print the predictions
+
 11.End
 
 ## PROGRAM:
@@ -94,3 +104,4 @@ public class WeatherPrediction
 
 ## RESULT:
 All bots successfully implement the WeatherBot interface and provide their own customized predictions.
+
