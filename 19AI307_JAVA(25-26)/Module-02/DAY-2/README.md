@@ -8,11 +8,17 @@ To Write a method int square(int number) that returns the square of a given numb
 
 ## ALGORITHM :
 1.Start
+
 2.Define a method square(int number).
+
 3.Inside the method, calculate number * number.
+
 4.Return the result.
+
 5.Call the method with a sample number (e.g., 5).
+
 6.Print the returned value.
+
 7.End
 
 ## PROGRAM:
@@ -46,3 +52,4 @@ public class prog{
 
 ## RESULT:
 The program successfully calculates the square of the given number and returns the correct result.
+
