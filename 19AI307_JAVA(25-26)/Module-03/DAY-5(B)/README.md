@@ -8,14 +8,23 @@ To Write a Java program to check if a number is an Armstrong number using Math.p
 
 ## ALGORITHM :
 1.Start
+
 2.Read a number from the user.
+
 3.Convert the number to a string using Integer.toString(number) to count digits.
+
 4.Store the digit count.
+
 5.Use Math.pow(digit, numberOfDigits) to raise the digit to the power.
+
 6.Add the result to sum.
+
 7.Compare the sum with the original number.
+
 8.If equal → It is an Armstrong number.
+
 9.Else → Not an Armstrong number.
+
 10.End.
 
 ## PROGRAM:
@@ -58,6 +67,7 @@ public class ArmstrongCheck {
 
 ## RESULT:
 The program successfully checks whether the given number is an Armstrong number using Math.pow() and the Integer wrapper class, and displays the correct output.
+
 
 
 
