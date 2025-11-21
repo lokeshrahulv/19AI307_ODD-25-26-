@@ -16,6 +16,7 @@ To Create a Super class Person with fields name and age. Create a subclass Stude
 
 ## ALGORITHM :
 1.Start
+
 2.Create a superclass Person with:
 
   Variables: name, age
@@ -137,3 +138,4 @@ public class Main {
 
 ## RESULT:
 The program successfully inherits fields from the Person class, adds marks in the Student class, and calculates the student’s grade based on the marks provided.
+
