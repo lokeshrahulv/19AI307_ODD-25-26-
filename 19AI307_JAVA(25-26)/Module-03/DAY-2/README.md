@@ -7,7 +7,7 @@ Write a Java program that calculates the area of different shapes using method o
   area(int length, int breadth) for rectangle
 
   area(double radius) for circle
-<img width="441" height="369" alt="image" src="https://github.com/user-attachments/assets/82d5d76c-606f-4cdd-bbb6-77beb5425280" />
+<img width="452" height="333" alt="image" src="https://github.com/user-attachments/assets/b3b1e0ac-e708-4dc2-8168-bd520cb9641f" />
 
 ## AIM:
 To Write a Java program that calculates the area of different shapes using method overloading. Create a class AreaCalculator with:
@@ -85,4 +85,5 @@ public class Main {
 
 ## RESULT:
 The program successfully calculates the areas of different shapes (square, rectangle, and circle) using method overloading and displays the correct results.
+
 
