@@ -14,15 +14,25 @@ To Write a Java program that calculates the area of different shapes using metho
 
 ## ALGORITHM :
 1.Start
+
 2.Create a class AreaCalculator.
+
 3.Overload the method area() in the following ways:
+
    area(int side) → calculate area of a square using side × side.
+   
    area(int length, int breadth) → calculate area of a rectangle.
+   
    area(double radius) → calculate area of a circle using π × r².
+
 4.In the main() method:
+
    Create an object of AreaCalculator.
+   
    Call each overloaded method.
+   
    Print the results.
+
 5.End
 
 
@@ -85,5 +95,6 @@ public class Main {
 
 ## RESULT:
 The program successfully calculates the areas of different shapes (square, rectangle, and circle) using method overloading and displays the correct results.
+
 
 
