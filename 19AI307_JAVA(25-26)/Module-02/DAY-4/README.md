@@ -2,6 +2,7 @@
 
 ## QUESTION:
 Write a program to access a static variable using both class name and object.
+<img width="617" height="147" alt="image" src="https://github.com/user-attachments/assets/148a1ed8-951c-49dc-a444-59379a1f8e38" />
 
 ## AIM:
 To Write a program to access a static variable using both class name and object.
@@ -46,3 +47,4 @@ class prog{
 
 ## RESULT:
 The program successfully accesses the static variable using both the class name and an object, demonstrating that static variables belong to the class rather than individual objects.
+
