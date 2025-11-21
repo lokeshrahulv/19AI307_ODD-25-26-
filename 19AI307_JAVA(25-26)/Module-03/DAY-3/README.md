@@ -25,13 +25,21 @@ To Create an abstract class Employee with method calculatePay(). Extend it to Ho
 
 ## ALGORITHM :
 1.Start
+
 2.Create an abstract class Employee with:
+
 3.Abstract method calculatePay()
+
 4.Create HourlyEmployee subclass:
+
 5.Create SalariedEmployee subclass:
+
 6.Implement calculatePay() → return monthlySalary
+
 7.Create objects of each type
+
 8.Print the results
+
 9.End
 
 ## PROGRAM:
@@ -112,4 +120,5 @@ class prog {
 
 ## RESULT:
 The program successfully calculates pay for both types of employees using polymorphism. HourlyEmployee computes pay based on hours and rate, while SalariedEmployee returns a fixed monthly salary.
+
 
