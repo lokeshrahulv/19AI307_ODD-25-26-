@@ -7,14 +7,22 @@ Write a program that reads two integers and divides the first by the second. Han
 To write a program that reads two integers and divides the first by the second. Handle the case when division by zero occurs.
 
 ## ALGORITHM :
-1.Start
+1.Start.
+
 2.Read two integers from the user:
+
    num1 (dividend)
+
    num2 (divisor)
+
 3.Check if num2 == 0
+
    If yes, display: “Error: Division by zero is not allowed.”
+   
    If no, perform division → result = num1 / num2
+
 5.Display the result
+
 6.End
 
 ## PROGRAM:
@@ -49,4 +57,5 @@ class prog{
 
 ## RESULT:
 The program successfully performs division and safely handles the case when the second number is zero, preventing a runtime error.
+
 
