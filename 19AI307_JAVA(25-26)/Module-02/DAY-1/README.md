@@ -9,14 +9,23 @@ To create a class Person with attributes name and age. Write a method greet() th
 
 ## ALGORITHM :
 1.Start
+
 2.Define a class named Person.
+
 3.Inside the class, create an initializer method __init__() with parameters name and age.
+
 4.Store these parameters into instance variables.
+
 5.Create a method greet() inside the class.
+
 6.In this method, print the message:
+
 "Hello, my name is <name> and I am <age> years old."
+
 7.Create an object of the class Person by passing name and age.
+
 8.Call the greet() method using the object.
+
 9.End.
 
 ## PROGRAM:
@@ -67,3 +76,4 @@ class prog
 
 ## RESULT:
 The program successfully displays the greeting message with the person's name and age.
+
