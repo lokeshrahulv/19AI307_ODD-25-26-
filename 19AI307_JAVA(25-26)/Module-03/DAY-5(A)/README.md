@@ -9,17 +9,29 @@ To write a Java program to create an enum Season with values WINTER, SPRING, SUM
 
 ## ALGORITHM :
 1.Start
+
 2.Create an enum Season with values:
+
    WINTER, SPRING, SUMMER, FALL
+
 3.Read a season name from the user
+
 4.Convert the input string to uppercase so it matches enum names.
+
   Use Season.valueOf() to convert the string to an enum value.
+
 5.Use a switch statement:
+
   If WINTER → print “It's cold outside. Stay warm!”
+  
   If SPRING → print “Flowers are blooming. Enjoy the fresh air!”
+  
   If SUMMER → print “It's sunny and hot. Time for the beach!”
+  
   If FALL → print “Leaves are falling. Autumn is beautiful!”
+
 6.Display the output.
+
 7.End
 
 ## PROGRAM:
@@ -68,4 +80,5 @@ public class Main {
 
 ## RESULT:
 The program successfully reads the season from the user, converts it to an enum value, and displays the correct custom message using a switch statement.
+
 
